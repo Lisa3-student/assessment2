@@ -1,0 +1,42 @@
+body {
+    background-color: #04a6eb;
+    color: #fdffff;
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button {
+    padding: 5px 20px;
+    background-color: #337ab7;
+    border-style: none;    
+    color: #fdffff;
+}
+
+input {
+    height: 23px;
+}
+
+.personality-options {
+    border: 0;
+    padding: 0;
+}
+
+.personality-options legend {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.personality-options label {
+    display: block;
+    margin: 8px 0;
+}
+
+.personality-options input {
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+#result-area {
+    white-space: pre-line;
+}
